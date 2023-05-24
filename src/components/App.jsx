@@ -46,7 +46,7 @@ const App = () => {
     };
 
     fetchData();
-  }, [searchQuery, currentPage]);
+  }, [searchQuery, currentPage, totalImages]);
 
   const handleSubmit = newSearchQuery => {
     if (searchQuery === newSearchQuery) {
@@ -98,4 +98,3 @@ const App = () => {
 };
 
 export default App;
-
